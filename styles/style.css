@@ -1,8 +1,139 @@
-/*
+/* 
 Colors:
 
 Text: 1A1A1A
 Green: #00B172
-White: #FFF
+White: #FFF */
 
-*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+.nav-bar {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  line-height: 30px;
+}
+.nav-bar li {
+  display: flex;
+  margin: 10px;
+}
+
+.nav-logo {
+  width: 150px;
+  object-fit: contain;
+}
+
+/* header  */
+/* .header {
+    display: flex;
+    justify-content: center;
+} */
+.header-img {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  flex-direction: column;
+}
+.title-header {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 120px;
+}
+.subtitle-header {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+/* main */
+/* .main {
+  display: flex;
+  position: relative;
+  margin-top: 200px;
+  text-align: center;
+} */
+.main-title {
+  text-align: center;
+  margin-top: 210px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-size: 2em;
+  font-weight: bold;
+}
+.list-icon-container {
+  display: flex;
+  margin: 30px;
+  padding: 20px;
+}
+.list-icon {
+  padding: 20px;
+}
+.icons {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.icon-gree {
+  text-align: center;
+  color: #00b172;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.icon-grey {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* footer */
+.green-background {
+  display: flex;
+  color: #fff;
+  width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #00b172;
+}
+.green-tittle {
+  font-size: 1.7em;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.green-text-container {
+  padding: 30px;
+}
+.green-text-container h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+
+.green-text-container p {
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+.green-icon {
+  /* width: 230px; */
+  display: flex;
+  height: 100px;
+  align-self: center;
+}
+.kanye-img {
+  width: 30%;
+  margin: 17px;
+}
